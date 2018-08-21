@@ -29,7 +29,7 @@ client.on('message',rebel =>   {
       let no = msg.createReactionCollector(rebel2Filter, {maxMatches : 1,time : 15000,});
   
       yes.on("collect", r => {
-  rebel.guild.channels.get("479450824003682304").send(`
+  rebel.guild.channels.get("479076527309586443").send(`
   __طلبية جديدة__
   ========================
   **${args}**
